@@ -15,7 +15,7 @@
 # limitations under the License.
 
 module OmniAuth
-  module Ubi
+  module Wink
     VERSION = '1.0'
   end
 end
