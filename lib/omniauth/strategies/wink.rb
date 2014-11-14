@@ -20,9 +20,9 @@ module OmniAuth
   module Strategies
     class Wink < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site => 'https://winkapi.quirky.com',
-        :authorize_url => '/oauth2/authorize',
-        :token_url => '/oauth2/token'
+        :site => 'https://private-46e24-wink.apiary-mock.com',
+        :authorize_url => 'https://private-46e24-wink.apiary-mock.com',
+        :token_url => 'https://private-46e24-wink.apiary-mock.com/oauth2/token'
 
       }
 
