@@ -23,7 +23,7 @@ Gem::Specification.new do |gem|
   gem.summary       = 'Wink strategy for OmniAuth 1.x'
   gem.name          = 'omniauth-wink'
   gem.files         = `git ls-files`.split("\n")
-  gem.name          = 'omniauth-ubi'
+  gem.name          = 'omniauth-wink'
   gem.require_paths = ['lib']
   gem.version       = OmniAuth::Wink::VERSION
   gem.add_dependency 'omniauth', '~> 1.0'
