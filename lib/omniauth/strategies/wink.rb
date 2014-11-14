@@ -20,8 +20,8 @@ module OmniAuth
   module Strategies
     class Wink < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site => 'https://winkapi.quirky.com',
-        :authorize_url => 'https://winkapi.quirky.com',
+        :site => 'https://winkapi.quirky.com/',
+        :authorize_url => 'https://winkapi.quirky.com/oauth2/authorize',
         :token_url => 'https://winkapi.quirky.com/oauth2/token'
 
       }
