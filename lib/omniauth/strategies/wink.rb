@@ -20,9 +20,9 @@ module OmniAuth
   module Strategies
     class Wink < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site => 'https://winkapi.quirky.com/',
-        :authorize_url => 'https://winkapi.quirky.com/oauth2/authorize',
-        :token_url => 'https://winkapi.quirky.com/oauth2/token'
+        :site => 'https://winkapi.quirky.com',
+        :authorize_url => '/oauth2/authorize',
+        :token_url => '/oauth2/token'
 
       }
 
@@ -30,3 +30,7 @@ module OmniAuth
   end
 end
 OmniAuth.config.add_camelization 'wink', 'Wink'
+
+
+
+
